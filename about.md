@@ -25,9 +25,14 @@ layout: page
 <h2>Selected Awards</h2>
 <ul>
     <li>USC Annenberg Fellowship</li>
+    <small><i>USC, Feb. 2016</i></small>
 </ul>
 
 <h2>Contact</h2>
 <ul>
-	<li>Email: jianfenw[at]usc[dot]edu</li>
+	Email: jianfenw[at]usc[dot]edu<br/><br/>
+	University of Southern California<br>
+	Department of Computer Science<br>
+	941 Bloom Walk, SAL 227<br>
+	Los Angeles, CA 90089<br>
 </ul>>
