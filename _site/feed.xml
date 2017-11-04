@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-10-28T18:50:09-07:00</updated><id>http://localhost:4000/</id><title type="html">Jianfeng Wang</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">Nest Post Test</title><link href="http://localhost:4000/new-page-post/" rel="alternate" type="text/html" title="Nest Post Test" /><published>2017-07-22T20:10:00-07:00</published><updated>2017-07-22T20:10:00-07:00</updated><id>http://localhost:4000/new-page-post</id><content type="html" xml:base="http://localhost:4000/new-page-post/">&lt;h2 id=&quot;summary&quot;&gt;Summary:&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="3.4.5">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2017-11-03T23:17:57-07:00</updated><id>http://localhost:4000/</id><title type="html">Jianfeng Wang</title><subtitle>A blog about technology and stuff related</subtitle><entry><title type="html">pyglet: 跨平台窗口和多媒体库</title><link href="http://localhost:4000/blog/2017/11/03/pyglet.html" rel="alternate" type="text/html" title="pyglet: 跨平台窗口和多媒体库" /><published>2017-11-03T23:04:00-07:00</published><updated>2017-11-03T23:04:00-07:00</updated><id>http://localhost:4000/blog/2017/11/03/pyglet</id><content type="html" xml:base="http://localhost:4000/blog/2017/11/03/pyglet.html">&lt;h2 id=&quot;summary&quot;&gt;Summary:&lt;/h2&gt;
 
 &lt;p&gt;The summary part&lt;/p&gt;
 
@@ -39,4 +39,45 @@
 &lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;![Markdowm Image][image/url]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
 
 &lt;p&gt;&lt;img src=&quot;http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg&quot; alt=&quot;Markdowm Image&quot; /&gt;&lt;/p&gt;
-&lt;figcaption class=&quot;caption&quot;&gt;Photo by Jianfeng Wang&lt;/figcaption&gt;</content><author><name>Jianfeng</name></author><category term="project" /><category term="Test" /><summary type="html">Summary:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/profile.jpg" /></entry></feed>
+&lt;figcaption class=&quot;caption&quot;&gt;Photo by Jianfeng Wang&lt;/figcaption&gt;</content><author><name>Jianfeng</name></author><category term="blog" /><category term="pyglet" /><category term="OpenGL" /><summary type="html">Summary:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/profile.jpg" /></entry><entry><title type="html">Write A New Blog or Projects Post</title><link href="http://localhost:4000/blog/2017/07/22/new-page-post.html" rel="alternate" type="text/html" title="Write A New Blog or Projects Post" /><published>2017-07-22T20:10:00-07:00</published><updated>2017-07-22T20:10:00-07:00</updated><id>http://localhost:4000/blog/2017/07/22/new-page-post</id><content type="html" xml:base="http://localhost:4000/blog/2017/07/22/new-page-post.html">&lt;h2 id=&quot;summary&quot;&gt;Summary:&lt;/h2&gt;
+
+&lt;p&gt;The summary part&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;chapter&quot;&gt;Chapter&lt;/h2&gt;
+
+&lt;p&gt;The chapter&lt;/p&gt;
+
+&lt;h3 id=&quot;the-sub-chapter&quot;&gt;The sub-chapter&lt;/h3&gt;
+
+&lt;p&gt;The sub-chapter&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;paragraph-modifiers&quot;&gt;Paragraph Modifiers&lt;/h2&gt;
+
+&lt;h3 id=&quot;quote&quot;&gt;Quote&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;Here is a quote…&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;urls&quot;&gt;URLs&lt;/h2&gt;
+
+&lt;p&gt;URLs can be added in a easy way.&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;A name link to &lt;a href=&quot;http://google.com/&quot;&gt;Jianfeng&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h2 id=&quot;images&quot;&gt;images&lt;/h2&gt;
+
+&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-raw&quot; data-lang=&quot;raw&quot;&gt;![Markdowm Image][image/url]&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+
+&lt;p&gt;&lt;img src=&quot;http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg&quot; alt=&quot;Markdowm Image&quot; /&gt;&lt;/p&gt;
+&lt;figcaption class=&quot;caption&quot;&gt;Photo from the Internet&lt;/figcaption&gt;</content><author><name>Jianfeng</name></author><category term="blog" /><category term="Jekyll tutorial" /><summary type="html">Summary:</summary><media:thumbnail xmlns:media="http://search.yahoo.com/mrss/" url="http://localhost:4000/assets/images/profile.jpg" /></entry></feed>

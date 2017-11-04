@@ -8,7 +8,7 @@ description: A blog about technology and stuff related
 # if it's an external image, update below for true
 # better with square images
 # This is for header /Home or /Projects
-external-image: true
+external-image: false
 head_picture: /assets/images/head_profile.jpg
 picture: /assets/images/profile.jpg
 
@@ -22,7 +22,7 @@ resume-url: https://www.google.com/
 # your url: http://USERNAME.github.io
 url: https://jwangee.github.io
 
-permalink: /:title/
+#permalink: /:title/
 
 # To enable google analytics, supply your token below
 analytics-google: 'UA-MYANALYTICS'
@@ -34,8 +34,8 @@ analytics-piwik-id: 1
 # if you don't want comments in your posts, leave categories empty
 disqus:
   shortname: jf-personal-site # enter this from your disqus account
-  categories: [project] # only show disqus for posts that have these categories
-
+  categories: [blog] # only show disqus for posts that have these categories
+  
 # if you don't have any of social below, comment the line
 #facebook: profile.php?id=100010194227441
 #twitter: mytwitter
@@ -68,15 +68,16 @@ authors:
 width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
-paginate: 10
-paginate_path: "_posts/:num/"
+# DO NOT set permalink if you want to use paginate!!! (Don't ask me for reason!!!)
+paginate: 5
+paginate_path: "blog/page:num/"
 
-# if you don't need projects, comment the *projects* configs below
+# if you don't need projects or blog, comment the *projects* or *blog* configs below
 projects: true
+blog: true
 
-# if you don't need "about" or "blog", comment them out below
+# if you don't need "about", comment them out below
 about: true
-#blog: true
 
 # do you want to show the "read time" of the posts?
 read-time: true

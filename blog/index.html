@@ -4,19 +4,27 @@
 layout: page
 title: Blog
 ---
+<!--This loops through the paginated posts 
+{% for post in site.posts %}
+	<h1> <a href="{{post.url}}">{{post.title}}</a> </h1>
+{% endfor %}
+-->
+
 <section class="list">
-	{% if site.posts.size == 0 %}
+	{% if paginator.posts.size == 0 %}
 		<p class="text-center">Nothing published yet!</p>
-	{% elsif site.paginate %}
+	{% elsif site.paginate >= 2 %}
 		{% for post in paginator.posts %}
-			{% if post.category == 'blog' %}
+			{% if post.blog %}
 				{% if post.hidden != true %}
 					{% include blog-post.html %}
 				{% endif %}
 			{% endif %}
 		{% endfor %}
 
-		{% include pagination.html%}
+		{% if paginator.posts.size >= 1 %}
+			{% include pagination.html%}
+		{% endif %}
 	{% else %}
 		{% for post in site.posts %}
 			{% if post.category == 'blog' %}

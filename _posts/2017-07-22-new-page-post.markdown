@@ -1,15 +1,17 @@
 ---
-title: "Nest Post Test"
+title: "Write A New Blog or Projects Post"
 layout: post
 date: 2017-07-22 20:10
-tag: Test
+tag: 
+- Jekyll tutorial
+star: true
 image: /assets/images/profile.jpg
 headerImage: true
-projects: true
-hidden: false # don't count this post in blog pagination
-description: "The first post in my personal page"
-category: project
+projects: false
+blog: true
+category: blog
 author: Jianfeng
+description: Jekyll - how to write a new post
 externalLink: false
 ---
 
@@ -51,9 +53,6 @@ URLs can be added in a easy way.
 ![Markdowm Image][image/url]
 {% endhighlight %}
 ![Markdowm Image][1]
-<figcaption class="caption">Photo by Jianfeng Wang</figcaption>
-
-
-
+<figcaption class="caption">Photo from the Internet</figcaption>
 
 [1]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
