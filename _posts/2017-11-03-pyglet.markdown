@@ -1,0 +1,62 @@
+---
+title: "pyglet: 跨平台窗口和多媒体库"
+layout: post
+date: 2017-11-03 23:04
+tag: 
+- pyglet
+- OpenGL
+star: true
+image: /assets/images/profile.jpg
+headerImage: true
+projects: false
+blog: true
+category: blog
+author: Jianfeng
+description: Python library for OpenGL
+externalLink: false
+---
+
+## Summary:
+
+如果你想在PC上写自己的小程序，那么cocos2d（基于pyglet的封装）应该就够用了。那么，我们先学习一下pyglet的使用，并熟悉一下小型游戏程序的开发过程。
+
+---
+
+## 重要的元素
+
+The chapter
+
+### 窗口
+
+The sub-chapter
+
+---
+
+## Paragraph Modifiers
+
+### Quote
+
+> Here is a quote...
+
+---
+
+## URLs
+
+URLs can be added in a easy way.
+
+* A name link to [Jianfeng](http://google.com/)
+
+---
+
+## images
+
+{% highlight raw %}
+![Markdowm Image][image/url]
+{% endhighlight %}
+![Markdowm Image][1]
+<figcaption class="caption">Photo by Jianfeng Wang</figcaption>
+
+
+
+
+[1]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
