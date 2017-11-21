@@ -16,7 +16,7 @@ picture: /assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://www.google.com/
+resume-url: https://jwangee.github.io/assets/cv_jianfeng.pdf
 
 #url: 127.0.0.1:4000
 # your url: http://USERNAME.github.io
@@ -83,7 +83,7 @@ about: true
 read-time: true
 
 # do you want to show the "tags" inside the posts?
-show-tags: false
+show-tags: true
 
 # related posts inside a post?
 related: true
