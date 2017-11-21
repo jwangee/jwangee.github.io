@@ -16,7 +16,7 @@ picture: /assets/images/profile.jpg
 # and specify source (external or local).
 resume: true
 resume-external: true
-resume-url: https://jwangee.github.io/assets/cv_jianfeng.pdf
+resume-url: www.google.com
 
 #url: 127.0.0.1:4000
 # your url: http://USERNAME.github.io
@@ -69,7 +69,7 @@ width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
 # DO NOT set permalink if you want to use paginate!!! (Don't ask me for reason!!!)
-paginate: 5
+paginate: 6
 paginate_path: "blog/page:num/"
 
 # if you don't need projects or blog, comment the *projects* or *blog* configs below
