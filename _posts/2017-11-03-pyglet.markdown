@@ -20,13 +20,12 @@ externalLink: false
 
 如果你想在PC上写自己的小程序，那么cocos2d（基于pyglet的封装）应该就够用了。那么，我们先学习一下pyglet的使用，并熟悉一下小型游戏程序的开发过程。
 
+### Common Elements from Markdown
+- [Window](#Window)
+
 ---
 
-## 重要的元素
-
-The chapter
-
-### 窗口
+## Window
 
 The sub-chapter
 
