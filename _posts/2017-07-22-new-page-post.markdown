@@ -15,7 +15,7 @@ description: Jekyll - how to write a new post
 externalLink: false
 ---
 
-## Summary:
+## Summary
 
 This post is created to show how to write a new blog/project post by using Markdown.<br/>
 I should pick items up from the following lists.
