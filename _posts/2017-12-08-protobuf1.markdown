@@ -1,0 +1,124 @@
+---
+title: "Build protobuf (v3.5.0) in Mac"
+layout: post
+date: 2017-12-08 16:00
+tag: 
+- protobuf
+star: true
+image: /assets/images/profile.jpg
+headerImage: true
+projects: false
+blog: true
+category: blog
+author: Jianfeng
+description: protobuf - 1
+externalLink: false
+---
+
+## Summary
+It is always a big headache when building a new development environment. I try to record the whole process of building the Google protobuf (v3.5.0) on my Mac.
+
+### No.1 Download the source code
+Create an empty repo for the protobuf source code. Then, git clone to get the latest code.
+{% highlight bash %}
+git clone https://github.com/google/protobuf
+# add protobuf to the default python library
+pip install protobuf
+{% endhighlight %}
+
+### No.2 Update xcode command line tool
+{% highlight bash %}
+# update the xcode command line tool
+xcode-select --install
+{% endhighlight %}
+
+### No.3 Install the compiler (automake) and tool (Libtool)
+{% highlight bash %}
+# the compiler
+brew install automake
+# the lib management tool
+brew install libtool
+{% endhighlight %}
+If you fail at this step, you can go back to step No.2 and check the xcode command line tool.
+
+### No.4 Run autogen
+Running autogen to get all necessary libraries.
+{% highlight bash %}
+./autogen.sh
+{% endhighlight %}
+
+### No.5 Install protobuf
+{% highlight bash %}
+./configure
+# make check may take a long time
+make check
+make
+make install
+{% endhighlight %}
+
+If everything goes well, you should see the correct protobuf version after running "protoc --version".
+{% highlight bash %}
+libprotoc 3.5.0
+{% endhighlight %}
+
+## Google protobuf - "Hello World"
+In order to quickly learn what protobuf is and how to use it, I follow the official guide provided by the source website. The tutorial tells programmer how to create a new .proto file and how to use the file to program.
+
+### 1. Define the protocol format
+Here we define a "Person" data structure. Each data structure is specified as a message.
+{% highlight java %}
+syntax = "proto3";
+
+package tutorial;
+
+message Person {
+  required string name = 1;
+  required int32 id = 2;
+  optional string email = 3;
+
+  enum PhoneType {
+    MOBILE = 0;
+    HOME = 1;
+    WORK = 2;
+  }
+
+  message PhoneNumber {
+    required string number = 1;
+    optional PhoneType type = 2 [default = HOME];
+  }
+
+  repeated PhoneNumber phones = 4;
+}
+
+message AddressBook {
+  repeated Person people = 1;
+}
+{% endhighlight %}
+
+### 2. Compile and output our protocol format
+The command line tool "protoc" is used to compile the ".proto" protocol format definition and output the real library for different programming language. Let's use python for example.
+{% highlight java %}
+protoc -I=$SRC_DIR --python_out=$DST_DIR $SRC_DIR/addressbook.proto
+{% endhighlight %}
+Run the compiler and specify the source directory (where the application source code lives - the current directory is used if no value is provided), and the destination directory (where the generated code should go; often the same as $SRC_DIR), and the path to the ".proto" file. 
+This will generate "addressbook_pb2.py" in the specified destination directory.
+
+### 3. The protocol buffer API
+The python protocol buffer compiler does not generate the data access code, i.e. get() and set(), directly. Instead, it generates special descriptions for all messages, enums, and fields, and some mysteriously empty classes. Each message type will have one empty class.
+{% highlight python %}
+class Person(message.Message):
+  __metaclass__ = reflection.GeneratedProtocolMessageType
+
+  class PhoneNumber(message.Message):
+    __metaclass__ = reflection.GeneratedProtocolMessageType
+    DESCRIPTOR = _PERSON_PHONENUMBER
+  DESCRIPTOR = _PERSON
+
+class AddressBook(message.Message):
+  __metaclass__ = reflection.GeneratedProtocolMessageType
+  DESCRIPTOR = _ADDRESSBOOK
+{% endhighlight %}
+You may notice that each class type contains a '__metaclass__ = reflection.GeneratedProtocolMessageType'. At load time, this metaclass method will create all python methods that are needed to work with, and add them to the relevant classes. 
+In the application code, the program has to import the library to use the fully-populated classes in the code.
+
+
