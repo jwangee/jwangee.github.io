@@ -5,7 +5,7 @@ layout: page
 ![Profile Image]({{ site.url }}/{{ site.picture }})
 
 <!--<li><a href="https://github.com/">text</a></li>-->
-<p align="justify">I am a second year Ph.D student in the <a href="https://minghsiehee.usc.edu">Department of Electrical Engineering</a> at <a href="https://www.usc.edu">University of Southern California</a>. I work in the Networked Systems Lab (<a href="https://enl.usc.edu">NSL</a>) with my adviser Dr. <a href="https://sites.google.com/a/usc.edu/ramesh/">Ramesh Govindan</a>. Before joining NSL, I received my B.S. degree in Electrical Engineering and my B.A. degree in Economics from <a href="http://english.pku.edu.cn">Peking University</a>.</p>
+<p align="justify">I am a second year Ph.D student in the <a href="https://minghsiehee.usc.edu">Department of Electrical Engineering</a> at <a href="https://www.usc.edu">University of Southern California</a>. I work in the Networked Systems Lab (<a href="https://enl.usc.edu">NSL</a>) with my adviser Dr. <a href="https://sites.google.com/a/usc.edu/ramesh/">Ramesh Govindan</a> and Dr. <a href="https://www1.icsi.berkeley.edu/~barath/">Barath Raghavan</a>. Before joining NSL, I received my B.S. degree in Electrical Engineering and my B.A. degree in Economics from <a href="http://english.pku.edu.cn">Peking University</a>.</p>
 <p align="justify">I am interested in computer networks research including Network Protocols, Software-defined Networks (SDN) and Data Center Networks.</p>
 
 <h2>Skills</h2>
@@ -18,7 +18,8 @@ layout: page
 
 <h2>Projects</h2>
 <ul>
-    <li>TCP Trace Compression</li>
+	<li>Hybrid Packet Processing Programming Language and Platform</li>
+    <li>TCP Trace Compression System</li>
     <li>Indoor Positioning System Using Visible Light</li>
 </ul>
 
