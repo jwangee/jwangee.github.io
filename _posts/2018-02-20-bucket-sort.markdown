@@ -1,5 +1,5 @@
 ---
-title: "Bucket Sort"
+title: "Sort Algorithm"
 layout: post
 date: 2018-02-20 23:42
 tag:
