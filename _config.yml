@@ -69,7 +69,7 @@ width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
 # DO NOT set permalink if you want to use paginate!!! (Don't ask me for reason!!!)
-paginate: 6
+paginate: 10
 paginate_path: "blog/page:num/"
 
 # if you don't need projects or blog, comment the *projects* or *blog* configs below

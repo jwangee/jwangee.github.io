@@ -9,7 +9,7 @@ star: true
 image: /assets/images/profile.jpg
 headerImage: true
 projects: false
-blog: true
+blog: false
 category: blog
 author: Jianfeng
 description: Bugs from programming with Python

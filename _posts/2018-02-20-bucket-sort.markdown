@@ -8,7 +8,7 @@ star: false
 image: /assets/images/profile.jpg
 headerImage: true
 projects: false
-blog: true
+blog: false
 category: blog
 author: Jianfeng
 description: Notes for algorithm
