@@ -57,5 +57,4 @@ URLs can be added in a easy way.
 
 
 
-
 [1]: http://kune.fr/wp-content/uploads/2013/10/ghost-blog.jpg
