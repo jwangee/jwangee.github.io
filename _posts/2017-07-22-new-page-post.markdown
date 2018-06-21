@@ -5,7 +5,7 @@ date: 2017-07-22 20:10
 tag: 
 - Jekyll tutorial
 star: true
-image: /assets/images/profile.jpg
+image: /assets/images/profile_2.jpg
 headerImage: true
 projects: false
 blog: true

@@ -6,7 +6,7 @@ tag:
 - bugs
 - Python
 star: true
-image: /assets/images/profile.jpg
+image: /assets/images/profile_2.jpg
 headerImage: true
 projects: false
 blog: false

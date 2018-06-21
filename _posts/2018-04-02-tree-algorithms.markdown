@@ -5,7 +5,7 @@ date: 2018-04-02 11:42
 tag:
 - algorithm
 star: false
-image: /assets/images/profile.jpg
+image: /assets/images/profile_2.jpg
 headerImage: true
 projects: false
 blog: false
