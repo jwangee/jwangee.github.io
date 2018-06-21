@@ -7,7 +7,7 @@ tag:
 - iOS
 - Wechat
 star: true
-image: /assets/images/profile_2.jpg
+image: /assets/images/profile_1.jpg
 headerImage: true
 projects: false
 blog: true
