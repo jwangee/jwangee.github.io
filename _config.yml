@@ -11,7 +11,6 @@ description: A blog about technology and stuff related
 external-image: false
 head_picture: /assets/images/head_profile.jpg
 picture: /assets/images/profile_1.jpg
-/assets/images/profile_2.jpg
 
 # If you want to include your resume, set to true
 # and specify source (external or local).
